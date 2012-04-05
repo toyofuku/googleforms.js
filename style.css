@@ -1,0 +1,49 @@
+
+ul {
+  list-style: none;
+}
+
+input[type=text] {
+	width:48%;
+	height:44px;
+	font-size:20px;
+}
+input[type=radio] {
+	display:inline-block; width:44px; height:44px; vertical-align:top;
+}
+input[type=checkbox] {
+	display:inline-block; width:44px; height:44px; vertical-align:top;
+}
+input[type=submit] {
+	width:220px;
+	height:44px;
+}
+
+.errorheader {
+	color:red;
+}
+
+.errorbox-bad {
+	border: solid 1px red;
+}
+
+.ss-required-asterisk {
+	color:red;
+}
+
+.ss-q-title {
+	display:block;
+	font-size:20px;
+}
+
+.ss-q-help {
+	display:block;
+	font-size:12px;
+}
+
+.ss-choice-label {
+	display:inline-block; width:48%; height:44px; line-height:44px;
+	padding:4px;
+	background:#EEF; border:1px solid #CCC;
+}
+

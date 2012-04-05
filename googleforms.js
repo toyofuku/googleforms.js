@@ -26,7 +26,6 @@
 			.empty()
 			.append(form[0])
 			.append(resp[0]);
-			$("ul").css("list-style","none");
 
 			$("input[type=submit]").click(function(){
 				putFormData(this);
